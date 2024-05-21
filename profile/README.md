@@ -60,6 +60,18 @@ Run it in the same folder with following command:
 
 **→GPU + ZEN4**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP109/rqiner-x86-cuda-Nvidia.Zen4.0.6.0.tar.gz)
 
+### Hive OS flightsheet (GPU)
+Simple:```-i wallet_address --label %WORKER_NAME%```
+Pro:```$(nvtool --setcore 1700 --setcoreoffset 200 --setmem 1500) -i wallet_address --label %WORKER_NAME%```
+
+### Recommended GPU overclocks :  
+**Medium**  
+3000 series ```nvtool --setcoreoffset 250 --setclocks 1500 --setmem 5001```  
+4000 series ```nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001```  
+**High**  
+3000 series ```nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000```  
+4000 series ```nvtool --setcoreoffset 200 --setclocks 2900 --setmem 7000 --setmemoffset 2000```  
+
 - Extra config arguments:
 
 | Setting | Description |
