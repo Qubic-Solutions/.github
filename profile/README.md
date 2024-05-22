@@ -1,9 +1,9 @@
 # How to Start Mining with Qubic.Solutions
 
 ## Download Miner
-- **EP109 CPU Miner:** [Download v0.6.1](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v0.6.1)
-- **EP109 GPU Miner:** [Download v0.6.0](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/tag/v0.6.0)
-- **EP109 HiveOS Miner:** [Download EP109](https://github.com/Qubic-Solutions/HiveOS/releases/tag/EP109)
+- **EP110 CPU Miner:** [Download v0.6.1](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v0.6.1)
+- **EP110 GPU Miner:** [Download v0.6.0](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/tag/v0.6.0)
+- **EP110 HiveOS Miner:** [Download EP109](https://github.com/Qubic-Solutions/HiveOS/releases/tag/EP109)
 
 ## Check Your Stats
 - **Official:** [Qubic-Solutions Stats](https://pooltemp.qubic.solutions/info?miner=YOURIDHERE)
