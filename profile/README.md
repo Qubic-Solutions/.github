@@ -52,13 +52,13 @@ Run it in the same folder with following command:
 
 # GPU+CPU HiveOS 
 
-**→CPU only**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP109/rqiner-x86-CPU.v.0.6.1.tar.gz)
+**→CPU only**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP110/rqiner-x86-CPU.v.0.6.1.tar.gz)
 
-**→GPU only**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP109/rqiner-x86-cuda-gpu.0.6.0.tar.gz)
+**→GPU only**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP110/rqiner-x86-cuda-gpu.0.6.0.tar.gz)
 
-**→GPU + CPU**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP109/rqiner-x86-cuda-Nvidia.Broadwell.0.6.0.tar.gz)
+**→GPU + CPU**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP110/rqiner-x86-cuda-Nvidia.Broadwell.0.6.0.tar.gz)
 
-**→GPU + ZEN4**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP109/rqiner-x86-cuda-Nvidia.Zen4.0.6.0.tar.gz)
+**→GPU + ZEN4**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP110/rqiner-x86-cuda-Nvidia.Zen4.0.6.0.tar.gz)
 
 ### Hive OS flightsheet (GPU)
 Simple:```-i wallet_address --label %WORKER_NAME%```
