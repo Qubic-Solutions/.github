@@ -1,9 +1,9 @@
 # How to Start Mining with Qubic.Solutions
 
 ## Download Miner
-- **EP110 CPU Miner:** [Download v0.6.1](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v0.6.1)
-- **EP110 GPU Miner:** [Download v0.6.0](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/tag/v0.6.0)
-- **EP110 HiveOS Miner:** [Download EP110](https://github.com/Qubic-Solutions/HiveOS/releases/tag/EP110)
+- **EP112 CPU Miner:** [Download v0.7.0](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v0.6.1)
+- **EP112 GPU Miner:** [Download v0.6.0]()
+- **EP112 HiveOS Miner:** [Download v0.7.0](https://github.com/Qubic-Solutions/HiveOS/releases/tag/EP112)
 
 ## Check Your Stats
 - **Official:** [Qubic-Solutions Stats](https://pooltemp.qubic.solutions/info?miner=YOURIDHERE)
@@ -15,14 +15,14 @@
 # **CPU** 
 - **Linux**
 ```
-wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.6.1/rqiner-x86-znver4
+wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.7.0/rqiner-x86-znver4
 chmod 777 rqiner-x86-znver4
 ./rqiner-x86-znver4 -t <threads> -i <payout-id>
 ```
 
 - **Windows**
 
-Download: https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.6.1/rqiner-x86-znver4.exe
+Download: https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.7.0/rqiner-x86-znver4.exe
 Start it with the following command with the CMD console:
 `./rqiner-x86-znver4.exe -t <threads> -i <payout-id>`
 
@@ -33,7 +33,7 @@ proot-distro install ubuntu
 proot-distro login ubuntu
 apt update
 apt install -y wget
-wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.6.1/rqiner-aarch64-mobile
+wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.7.0/rqiner-aarch64-mobile
 chmod +x rqiner-aarch64-mobile
 ./rqiner-aarch64-mobile -t <threads> -i <payout-id>
 ```
