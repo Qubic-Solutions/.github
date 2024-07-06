@@ -1,9 +1,10 @@
 # How to Start Mining with Qubic.Solutions
 
 ## Download Miner
-- **EP114 CPU Miner:** [Download v0.8.0](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v0.8.0)
-- **EP114 GPU Miner:** [Download v0.8.0]()
-- **EP114 HiveOS Miner:** [Download v0.8.0](https://github.com/Qubic-Solutions/HiveOS/releases/tag/EP114)
+- **EP116 CPU Miner:** [Download v0.8.0](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v0.8.0)
+- **EP116 GPU Miner:** [Download v0.8.0](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/tag/v0.8.0)
+- **EP116 Hybrid Miner:** [Download v0.8.2](https://github.com/Qubic-Solutions/rqiner-hybrid-builds/releases/tag/v0.8.2)
+- **EP116 HiveOS Miner:** [Download v0.8.0/v0.8.2](https://github.com/Qubic-Solutions/HiveOS/releases/tag/EP116)
 
 ## Check Your Stats
 - **Official:** [Qubic-Solutions Stats](https://pooltemp.qubic.solutions/info?miner=YOURIDHERE)
@@ -12,17 +13,17 @@
 ## **Discord**
 - [![](https://img.shields.io/discord/1179806757204267090?color=5865F2&logo=Discord&style=flat-square)](https://discord.gg/zTrdShyQu2)
 
-# **CPU** 
+# **CPU (zen4)** 
 - **Linux**
 ```
-wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.7.0/rqiner-x86-znver4
+wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.8.0/rqiner-x86-znver4
 chmod 777 rqiner-x86-znver4
 ./rqiner-x86-znver4 -t <threads> -i <payout-id>
 ```
 
 - **Windows**
 
-Download: https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.7.0/rqiner-x86-znver4.exe
+Download: **https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.8.0/rqiner-x86-znver4.exe**
 Start it with the following command with the CMD console:
 `./rqiner-x86-znver4.exe -t <threads> -i <payout-id>`
 
@@ -33,7 +34,7 @@ proot-distro install ubuntu
 proot-distro login ubuntu
 apt update
 apt install -y wget
-wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.7.0/rqiner-aarch64-mobile
+wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.8.0/rqiner-aarch64-mobile
 chmod +x rqiner-aarch64-mobile
 ./rqiner-aarch64-mobile -t <threads> -i <payout-id>
 ```
@@ -41,24 +42,37 @@ chmod +x rqiner-aarch64-mobile
 
 **→ Linux**
 ```
-wget https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/download/v0.6.0/rqiner-x86-cuda
+wget **https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/download/v0.8.0/rqiner-x86-cuda**
 chmod 777 rqiner-x86-cuda
 ./rqiner-x86-cuda -i <payout-id> -l <label>
 ```
 **→ Windows**
-Download: https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/download/v0.6.0/rqiner-x86-cuda.exe
+Download: **https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/download/v0.8.0/rqiner-x86-cuda.exe**
 Run it in the same folder with following command:
 `./rqiner-x86-cuda.exe -i <payout-id> -l <label>`
 
 # GPU+CPU HiveOS 
 
-**→CPU only**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP110/rqiner-x86-CPU.v.0.6.1.tar.gz)
+**→CPU only**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-CPU.v.0.8.0.tar.gz)
 
-**→GPU only**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP110/rqiner-x86-cuda-gpu.0.6.0.tar.gz)
+**→GPU only**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-cuda-gpu.0.8.0.tar.gz)
 
-**→GPU + CPU**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP110/rqiner-x86-cuda-Nvidia.Broadwell.0.6.0.tar.gz)
+**→GPU + CPU**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-cuda-Nvidia.Broadwell.0.8.0.tar.gz)
 
-**→GPU + ZEN4**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP110/rqiner-x86-cuda-Nvidia.Zen4.0.6.0.tar.gz)
+**→GPU + ZEN4**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-cuda-Nvidia.Zen4.0.8.0.tar.gz)
+
+**→Hybrid**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-HY.0.8.2.fix.tar.gz)
+
+# How to run the Hybrid miner
+
+First download the correct binary from the releases in this repo.
+Similar to the regular CPU miner you will have to set the amount of threads as well as a payout ID and an optional label. For the GPU part of this implementation an additional parameter is required that sets the amount of resources used by your GPU(s).
+
+`rqiner -t <threads> -i <payout-id> -l <label> -n <ndatasets>`
+
+The -n parameter has to be a single value or a comma seperated list e.g.
+`-n 500 300 500`
+If you set 3 values for n they will be mapped to GPU 0, 1, 2 respectively. Ideal values for n are somewhere between 100-600 depending on your GPU, e.g. 4090: n=500, 4070ti: n=250. In order to find the optimal configuration you can run the GPU miner which will tell you the amount of blocks used in its optimal configuration after the auto-tuning is finished, which you can input as value for your -n parameter.
 
 ### Hive OS flightsheet (GPU)
 Simple:```-i wallet_address --label %WORKER_NAME%```
