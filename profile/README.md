@@ -1,10 +1,10 @@
 # How to Start Mining with Qubic.Solutions
 
 ## Download Miner
-- **EP117 CPU Miner:** [Download v0.8.0](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v0.8.0)
-- **EP117 GPU Miner:** [Download v0.8.0](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/tag/v0.8.0)
-- **EP117 Hybrid Miner:** [Download v0.8.2](https://github.com/Qubic-Solutions/rqiner-hybrid-builds/releases/tag/v0.8.2)
-- **EP117 HiveOS Miner:** [Download v0.8.0/v0.8.2](https://github.com/Qubic-Solutions/HiveOS/releases/tag/EP116)
+- **EP119 CPU Miner:** [Download v0.8.0](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v0.8.0)
+- **EP119 GPU Miner:** [Download v0.8.0](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/tag/v0.8.0)
+- **EP119 Hybrid Miner:** [Download v0.8.2](https://github.com/Qubic-Solutions/rqiner-hybrid-builds/releases/tag/v0.8.2)
+- **EP119 HiveOS Miner:** [Download v0.8.0/v0.8.2](https://github.com/Qubic-Solutions/HiveOS/releases/tag/EP116)
 
 ## Check Your Stats
 - **Official:** [Qubic-Solutions Stats](https://pooltemp.qubic.solutions/info?miner=YOURIDHERE)
