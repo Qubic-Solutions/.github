@@ -53,15 +53,15 @@ Run it in the same folder with following command:
 
 # GPU+CPU HiveOS 
 
-**→CPU only**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-CPU.v.0.8.0.tar.gz)
+**CPU only**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-CPU.v.0.8.0.tar.gz)
 
-**→GPU only**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-cuda-gpu.0.8.0.tar.gz)
+**GPU only**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-cuda-gpu.0.8.0.tar.gz)
 
-**→GPU + CPU**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-cuda-Nvidia.Broadwell.0.8.0.tar.gz)
+**GPU + CPU**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-cuda-Nvidia.Broadwell.0.8.0.tar.gz)
 
-**→GPU + ZEN4**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-cuda-Nvidia.Zen4.0.8.0.tar.gz)
+**GPU + ZEN4**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-cuda-Nvidia.Zen4.0.8.0.tar.gz)
 
-**→Hybrid**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-HY.0.8.2.fix.tar.gz)
+**Hybrid**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-HY.0.8.2.fix.tar.gz)
 
 # How to run the Hybrid miner
 
