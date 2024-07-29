@@ -8,7 +8,7 @@
 
 ## Check Your Stats
 - **Official:** [Mining Stats](https://pooltemp.qubic.solutions/info?miner=YOURIDHERE)
-- **By @Minerninja:** [Miner Stats](http://qubic.commando.sh/)
+- **By @Minerninja:** [Mining Stats](http://qubic.commando.sh/)
 
 ## **Discord**
 - [![](https://img.shields.io/discord/1179806757204267090?color=5865F2&logo=Discord&style=flat-square)](https://discord.gg/zTrdShyQu2)
