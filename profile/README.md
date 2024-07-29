@@ -1,14 +1,14 @@
 # How to Start Mining with Qubic.Solutions
 
 ## Download Miner
-- **EP119 CPU Miner:** [Download v0.8.0](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v0.8.0)
-- **EP119 GPU Miner:** [Download v0.8.0](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/tag/v0.8.0)
-- **EP119 Hybrid Miner:** [Download v0.8.2](https://github.com/Qubic-Solutions/rqiner-hybrid-builds/releases/tag/v0.8.2)
-- **EP119 HiveOS Miner:** [Download v0.8.0/v0.8.2](https://github.com/Qubic-Solutions/HiveOS/releases/tag/EP116)
+- **CPU Miner:** [Download v0.8.0](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v0.8.0)
+- **GPU Miner:** [Download v0.8.0](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/tag/v0.8.0)
+- **Hybrid Miner:** [Download v0.8.2](https://github.com/Qubic-Solutions/rqiner-hybrid-builds/releases/tag/v0.8.2)
+- **HiveOS Miner:** [Download v0.8.0/v0.8.2](https://github.com/Qubic-Solutions/HiveOS/releases/tag/EP116)
 
 ## Check Your Stats
-- **Official:** [Qubic-Solutions Stats](https://pooltemp.qubic.solutions/info?miner=YOURIDHERE)
-- **By @Minerninja:** [Qubic Stats](http://qubic.commando.sh/)
+- **Official:** [Mining Stats](https://pooltemp.qubic.solutions/info?miner=YOURIDHERE)
+- **By @Minerninja:** [Miner Stats](http://qubic.commando.sh/)
 
 ## **Discord**
 - [![](https://img.shields.io/discord/1179806757204267090?color=5865F2&logo=Discord&style=flat-square)](https://discord.gg/zTrdShyQu2)
