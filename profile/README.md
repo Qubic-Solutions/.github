@@ -51,7 +51,7 @@ If you set 3 values for n they will be mapped to GPU 0, 1, 2 respectively. Ideal
 
 # How to run the cluster miner
 
---rcluster-main--
+- rcluster-main
 host ``rcluster-main`` on node machine
 edit ``rcluster-config.json`` cluster_buffer, cluster_name and cluster_payout_id
 (cluster_buffer = total threads in cluster / 2)
@@ -59,12 +59,12 @@ open port 2003 for ``rcluster-gpu + rqiner`` connections
 ``sudo ufw allow 2003``
 run; ``./rcluster-main``
 
---rcluster-gpu-x86--
+- rcluster-gpu-x86
 run; ``./rcluster-gpu --cluster-ip <IP> --cluster-port <PORT> -n <ndata>`` 
 (n = cuda cores / 32)
 (``rcluster-gpu-x86`` will connect to ``rcluster-main`` and wait for jobs from CPU miners)
 
---rqiner-x86cluster-znver3/4--
+- rqiner-x86cluster-znver3/4
 run; ``./rqiner -t <threads> -i <payout-id> -l <label> --cluster-ip <IP:PORT>``
 
 # Hive OS flightsheet (GPU)
