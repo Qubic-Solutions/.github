@@ -2,6 +2,25 @@
 # Qubic.Solutions Mining Guide
 Welcome to Qubic.Solutions! This guide will help you start mining with our software, step-by-step. Whether you're new to mining or have some experience, we've got you covered.
 
+## Table of Contents
+
+- [Download Miners](#download-miners)
+- [Monitor Your Mining Stats](#monitor-your-mining-stats)
+- [Join Our Community](#join-our-community)
+- [Mining Setup Instructions](#mining-setup-instructions)
+  - [How to run the CPU miner (znver4/znver3/broadwell)](#how-to-run-the-cpu-miner-znver4znver3broadwell)
+  - [How to run the GPU miner (cuda)](#how-to-run-the-gpu-miner-cuda)
+  - [How to run the hybrid miner (CPU + GPU)](#how-to-run-the-hybrid-miner-cpu--gpu)
+  - [How to run the cluster miner](#how-to-run-the-cluster-miner)
+  - [How to run HiveOS (GPU/CPU)](#how-to-run-hiveos-gpucpu)
+  - [-n Parameter](#-n-parameter)
+- [CPU Architectures and Their Processors](#cpu-architectures-and-their-processors)
+  - [Zen 4 (znver4)](#zen-4-znver4)
+  - [Zen 3 (znver3)](#zen-3-znver3)
+  - [Broadwell](#broadwell)
+- [Extra Config Arguments](#Extra-config-arguments)
+- [Support](#support)
+
 ### Download Miners
 First, you need to download the appropriate miner for your setup. Here are the options:
 
