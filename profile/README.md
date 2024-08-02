@@ -1,5 +1,5 @@
 ![Github2](https://github.com/user-attachments/assets/df4f0ccc-0995-43b9-b0f3-14aee3a459cc)
-## Download 
+### Download 
 - **CPU Miner:** [PPLNS/SOLO Download v1.0.0](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v1.0.0-beta)
 - **GPU Miner:** [SOLO Download v0.8.0](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/tag/v0.8.0)
 - **Hybrid Miner:** [PPLNS/SOLO Download v1.0.0-beta](https://github.com/Qubic-Solutions/rqiner-hybrid-builds)
@@ -13,8 +13,12 @@ Once you start mining, you can monitor your performance and earnings through the
 - **Stats by @Minerninja:**
   - An alternative stats tracker. [View Stats](http://qubic.commando.sh/)
 
-## Discord
-- [![](https://img.shields.io/discord/1179806757204267090?color=5865F2&logo=Discord&style=flat-square)](https://discord.gg/zTrdShyQu2)
+### Join Our Community
+
+If you need help or want to connect with other miners, join our Discord community:
+
+- **Discord:**
+  - [![](https://img.shields.io/discord/1179806757204267090?color=5865F2&logo=Discord&style=flat-square)](https://discord
 
 # How to run the CPU miner (znver4/znver3/broadwell)
 
