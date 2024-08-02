@@ -169,7 +169,7 @@ This document provides a list of CPUs for the following microarchitectures: Zen 
 
 Zen 4 is AMD's microarchitecture used in their Ryzen 7000 series processors and EPYC 9004 series processors.
 
-| **Processor Model**    | **Cores** | **Threads** |
+| **Processor Model**    | **Cores** | **-t** |
 |------------------------|-----------|-------------|
 | AMD Ryzen 9 7950X     | 16        | 32          |
 | AMD Ryzen 9 7900X     | 12        | 24          |
@@ -183,7 +183,7 @@ Zen 4 is AMD's microarchitecture used in their Ryzen 7000 series processors and 
 
 Zen 3 is AMD's microarchitecture used in Ryzen 5000 series processors and EPYC 7003 series processors.
 
-| **Processor Model**    | **Cores** | **Threads** |
+| **Processor Model**    | **Cores** | **-t** |
 |------------------------|-----------|-------------|
 | AMD Ryzen 9 5950X     | 16        | 32          |
 | AMD Ryzen 9 5900X     | 12        | 24          |
@@ -196,7 +196,7 @@ Zen 3 is AMD's microarchitecture used in Ryzen 5000 series processors and EPYC 7
 
 Broadwell is Intel's microarchitecture used in some 5th Gen Core processors and Xeon E5-2600 v4 series.
 
-| **Processor Model**     | **Cores** | **Threads** |
+| **Processor Model**     | **Cores** | **-t** |
 |-------------------------|-----------|-------------|
 | Intel Core i7-5950HQ    | 4         | 8           |
 | Intel Core i7-5775C     | 4         | 8           |
