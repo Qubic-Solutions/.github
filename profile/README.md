@@ -7,9 +7,9 @@ We offer both PPLNS (Pay Per Last N Shares) and Solo mining options.
 
 - [Download Miners](#download-miners)
   - [Which version of the miner I have to use?](#cpu-architectures-and-their-processors)
-  - [Zen 4 (znver4)](#zen-4-znver4)
-  - [Zen 3 (znver3)](#zen-3-znver3)
-  - [Broadwell](#broadwell)
+    - [Zen 4 (znver4)](#zen-4-znver4)
+    - [Zen 3 (znver3)](#zen-3-znver3)
+    - [Broadwell](#broadwell)
 - [Monitor Your Mining Stats](#monitor-your-mining-stats)
 - [Join Our Community](#join-our-community)
 - [Mining Setup Instructions](#mining-setup-instructions)
