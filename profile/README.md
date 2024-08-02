@@ -81,11 +81,11 @@ run; ``./rcluster-gpu --cluster-ip <IP> --cluster-port <PORT> -n <ndata>``
 --rqiner-x86cluster-znver3/4--
 run; ``./rqiner -t <threads> -i <payout-id> -l <label> --cluster-ip <IP:PORT>``
 
-### Hive OS flightsheet (GPU)
+# Hive OS flightsheet (GPU)
 Simple:```-i wallet_address --label %WORKER_NAME%```
 Pro:```$(nvtool --setcore 1700 --setcoreoffset 200 --setmem 1500) -i wallet_address --label %WORKER_NAME%```
 
-### Recommended GPU overclocks :  
+# Recommended GPU overclocks :  
 **Medium**  
 3000 series ```nvtool --setcoreoffset 250 --setclocks 1500 --setmem 5001```  
 4000 series ```nvtool --setcoreoffset 250 --setclocks 2400 --setmem 5001```  
