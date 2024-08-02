@@ -1,9 +1,9 @@
-[github_readme](https://github.com/user-attachments/assets/df4f0ccc-0995-43b9-b0f3-14aee3a459cc)
+![Github2](https://github.com/user-attachments/assets/df4f0ccc-0995-43b9-b0f3-14aee3a459cc)
 
 # Mining with Qubic.Solutions!
 
 
-## Download Miner
+## Download 
 - **CPU Miner:** [PPLNS/SOLO Download v1.0.0](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v1.0.0-beta)
 - **GPU Miner:** [SOLO Download v0.8.0](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/tag/v0.8.0)
 - **Hybrid Miner:** [PPLNS/SOLO Download v1.0.0-beta](https://github.com/Qubic-Solutions/rqiner-hybrid-builds)
@@ -17,17 +17,16 @@
 ## **Discord**
 - [![](https://img.shields.io/discord/1179806757204267090?color=5865F2&logo=Discord&style=flat-square)](https://discord.gg/zTrdShyQu2)
 
-# **CPU (zen4)** 
-- **Linux**
+## **CPU (zen4)** 
+**Linux**
 ```
 wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.0-beta/rqiner-x86-znver4
 chmod 777 rqiner-x86-znver4
 ./rqiner-x86-znver4 -t <threads> -i <payout-id>
 ```
 
-- **Windows**
-
-Download: https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.0-beta/rqiner-x86-znver4
+**Windows**
+Download: `https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.0-beta/rqiner-x86-znver4`
 Start it with the following command with the CMD console:
 `./rqiner-x86-znver4.exe -t <threads> -i <payout-id> -l <label>`
 
