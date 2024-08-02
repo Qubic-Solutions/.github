@@ -13,44 +13,33 @@
 ## **Discord**
 - [![](https://img.shields.io/discord/1179806757204267090?color=5865F2&logo=Discord&style=flat-square)](https://discord.gg/zTrdShyQu2)
 
-## **CPU (zen4)** 
-**Linux**
+# CPU (znver4)
+
+** Linux **
 ```
 wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.0-beta/rqiner-x86-znver4
 chmod 777 rqiner-x86-znver4
 ./rqiner-x86-znver4 -t <threads> -i <payout-id>
 ```
-
-**Windows**
+** Windows **
 - Download: https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.0-beta/rqiner-x86-znver4
 - Start it with the following command with the CMD console:
-- `./rqiner-x86-znver4.exe -t <threads> -i <payout-id> -l <label>`
+`./rqiner-x86-znver4.exe -t <threads> -i <payout-id> -l <label>`
 
-# **Mobile Mining** 
-```
-pkg install proot-distro
-proot-distro install ubuntu
-proot-distro login ubuntu
-apt update
-apt install -y wget
-wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.8.0/rqiner-aarch64-mobile
-chmod +x rqiner-aarch64-mobile
-./rqiner-aarch64-mobile -t <threads> -i <payout-id>
-```
 # **GPU, Cuda**
 
-**→ Linux**
+** Linux **
 ```
 wget https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/download/v0.8.0/rqiner-x86-cuda
 chmod 777 rqiner-x86-cuda
 ./rqiner-x86-cuda -i <payout-id> -l <label>
 ```
-**→ Windows**
+** Windows **
 Download: **https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/download/v0.8.0/rqiner-x86-cuda.exe**
 Run it in the same folder with following command:
 `./rqiner-x86-cuda.exe -i <payout-id> -l <label>`
 
-# How to run the Hybrid miner
+# How to run the hybrid miner
 
 First download the correct binary from the releases in this repo.
 Similar to the regular CPU miner you will have to set the amount of threads as well as a payout ID and an optional label. For the GPU part of this implementation an additional parameter is required that sets the amount of resources used by your GPU(s).
@@ -61,7 +50,7 @@ The -n parameter has to be a single value or a comma seperated list e.g.
 `-n 500 300 500`
 If you set 3 values for n they will be mapped to GPU 0, 1, 2 respectively. Ideal values for n are somewhere between 100-600 depending on your GPU, e.g. 4090: n=500, 4070ti: n=250. In order to find the optimal configuration you can run the GPU miner which will tell you the amount of blocks used in its optimal configuration after the auto-tuning is finished, which you can input as value for your -n parameter.
 
-# How to run the Cluster miner
+# How to run the cluster miner
 
 --rcluster-main--
 host ``rcluster-main`` on node machine
@@ -80,8 +69,8 @@ run; ``./rcluster-gpu --cluster-ip <IP> --cluster-port <PORT> -n <ndata>``
 run; ``./rqiner -t <threads> -i <payout-id> -l <label> --cluster-ip <IP:PORT>``
 
 # Hive OS flightsheet (GPU)
-Simple:```-i wallet_address --label %WORKER_NAME%```
-Pro:```$(nvtool --setcore 1700 --setcoreoffset 200 --setmem 1500) -i wallet_address --label %WORKER_NAME%```
+- Simple:```-i wallet_address --label %WORKER_NAME%```
+- Pro:```$(nvtool --setcore 1700 --setcoreoffset 200 --setmem 1500) -i wallet_address --label %WORKER_NAME%```
 
 # Recommended GPU overclocks :  
 **Medium**  
