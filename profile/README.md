@@ -63,6 +63,24 @@ The -n parameter has to be a single value or a comma seperated list e.g.
 `-n 500 300 500`
 If you set 3 values for n they will be mapped to GPU 0, 1, 2 respectively. Ideal values for n are somewhere between 100-600 depending on your GPU, e.g. 4090: n=500, 4070ti: n=250. In order to find the optimal configuration you can run the GPU miner which will tell you the amount of blocks used in its optimal configuration after the auto-tuning is finished, which you can input as value for your -n parameter.
 
+# How to run Hybrid miner
+
+--rcluster-main--
+host ``rcluster-main`` on node machine
+edit ``rcluster-config.json`` cluster_buffer, cluster_name and cluster_payout_id
+(cluster_buffer = total threads in cluster / 2)
+open port 2003 for ``rcluster-gpu + rqiner`` connections
+``sudo ufw allow 2003``
+run; ``./rcluster-main``
+
+--rcluster-gpu-x86--
+run; ``./rcluster-gpu --cluster-ip <IP> --cluster-port <PORT> -n <ndata>`` 
+(n = cuda cores / 32)
+(``rcluster-gpu-x86`` will connect to ``rcluster-main`` and wait for jobs from CPU miners)
+
+--rqiner-x86cluster-znver3/4--
+run; ``./rqiner -t <threads> -i <payout-id> -l <label> --cluster-ip <IP:PORT>``
+
 ### Hive OS flightsheet (GPU)
 Simple:```-i wallet_address --label %WORKER_NAME%```
 Pro:```$(nvtool --setcore 1700 --setcoreoffset 200 --setmem 1500) -i wallet_address --label %WORKER_NAME%```
