@@ -103,6 +103,7 @@ run; ``./rqiner -t <threads> -i <payout-id> -l <label> --cluster-ip <IP:PORT>``
 4000 series ```nvtool --setcoreoffset 200 --setclocks 2900 --setmem 7000 --setmemoffset 2000```  
 
 ### -n Parameter
+Search for your GPU and select the right felt on the right side to get the best performance.
 
 | **GPU Model**                   | **CUDA Cores** | **-n** |
 |---------------------------------|----------------|---------------------|
@@ -124,7 +125,7 @@ run; ``./rqiner -t <threads> -i <payout-id> -l <label> --cluster-ip <IP:PORT>``
 
 ## NVIDIA Quadro GPUs
 
-| **GPU Model**                   | **CUDA Cores** | **CUDA Cores ÷ 32** |
+| **GPU Model**                   | **CUDA Cores** | **-n** |
 |---------------------------------|----------------|---------------------|
 | NVIDIA Quadro RTX 8000          | 4,608          | 144                 |
 | NVIDIA Quadro RTX 6000          | 4,608          | 144                 |
@@ -134,7 +135,7 @@ run; ``./rqiner -t <threads> -i <payout-id> -l <label> --cluster-ip <IP:PORT>``
 
 ## NVIDIA Tesla GPUs
 
-| **GPU Model**                   | **CUDA Cores** | **CUDA Cores ÷ 32** |
+| **GPU Model**                   | **CUDA Cores** | **-n** |
 |---------------------------------|----------------|---------------------|
 | NVIDIA Tesla V100               | 5,120          | 160                 |
 | NVIDIA Tesla P100               | 3,584          | 112                 |
@@ -142,7 +143,7 @@ run; ``./rqiner -t <threads> -i <payout-id> -l <label> --cluster-ip <IP:PORT>``
 
 ## NVIDIA A100 (Data Center GPU)
 
-| **GPU Model**                   | **CUDA Cores** | **CUDA Cores ÷ 32** |
+| **GPU Model**                   | **CUDA Cores** | **-n** |
 |---------------------------------|----------------|---------------------|
 | NVIDIA A100                     | 6,912          | 216                 |
 
