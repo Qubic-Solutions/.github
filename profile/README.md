@@ -17,16 +17,16 @@
 # **CPU (zen4)** 
 - **Linux**
 ```
-wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.8.0/rqiner-x86-znver4
+wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.0-beta/rqiner-x86-znver4
 chmod 777 rqiner-x86-znver4
 ./rqiner-x86-znver4 -t <threads> -i <payout-id>
 ```
 
 - **Windows**
 
-Download: **https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v0.8.0/rqiner-x86-znver4.exe**
+Download: https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.0-beta/rqiner-x86-znver4
 Start it with the following command with the CMD console:
-`./rqiner-x86-znver4.exe -t <threads> -i <payout-id>`
+`./rqiner-x86-znver4.exe -t <threads> -i <payout-id> -l <label>`
 
 # **Mobile Mining** 
 ```
@@ -51,18 +51,6 @@ chmod 777 rqiner-x86-cuda
 Download: **https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/download/v0.8.0/rqiner-x86-cuda.exe**
 Run it in the same folder with following command:
 `./rqiner-x86-cuda.exe -i <payout-id> -l <label>`
-
-# GPU+CPU HiveOS 
-
-**CPU only**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-CPU.v.0.8.0.tar.gz)
-
-**GPU only**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-cuda-gpu.0.8.0.tar.gz)
-
-**GPU + CPU**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-cuda-Nvidia.Broadwell.0.8.0.tar.gz)
-
-**GPU + ZEN4**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-cuda-Nvidia.Zen4.0.8.0.tar.gz)
-
-**Hybrid**: [Download](https://github.com/Qubic-Solutions/HiveOS/releases/download/EP116/rqiner-x86-HY.0.8.2.fix.tar.gz)
 
 # How to run the Hybrid miner
 
