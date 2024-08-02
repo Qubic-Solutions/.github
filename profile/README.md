@@ -10,11 +10,11 @@ Welcome to Qubic.Solutions! This guide will help you start mining with our softw
 - [Mining Setup Instructions](#mining-setup-instructions)
   - [How to run the CPU miner (znver4/znver3/broadwell)](#how-to-run-the-cpu-miner-znver4znver3broadwell)
   - [How to run the GPU miner (cuda)](#how-to-run-the-gpu-miner-cuda)
-  - [How to run the hybrid miner (CPU + GPU)](#how-to-run-the-hybrid-miner-cpu--gpu)
-  - [How to run the cluster miner](#how-to-run-the-cluster-miner)
-  - [How to run HiveOS (GPU/CPU)](#how-to-run-hiveos-gpucpu)
-  - [-n Parameter](#-n-parameter)
-- [CPU Architectures and Their Processors](#cpu-architectures-and-their-processors)
+  - [How to run the Hybrid miner(CPU + GPU)](#how-to-run-the-hybrid-miner-cpu--gpu)
+  - [How to run the Cluster miner (CPU + GPU)](#How-to-run-the-Cluster-miner)
+  - [How to run HiveOS (Hybrid/Cluster/CPU)](#how-to-run-hiveos-gpucpu)
+  - [Which -n Parameter I have to choose?](#-n-parameter)
+- [Which version of the miner I have to use?](#cpu-architectures-and-their-processors)
   - [Zen 4 (znver4)](#zen-4-znver4)
   - [Zen 3 (znver3)](#zen-3-znver3)
   - [Broadwell](#broadwell)
@@ -74,7 +74,7 @@ chmod 777 rqiner-x86-cuda
 - Download: ```https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/download/v0.8.0/rqiner-x86-cuda.exe```
 - Start it with the following command with the CMD/Powershell console: ```./rqiner-x86-cuda.exe -i <payout-id> -l <label>```
 
-### How to run the hybrid miner (CPU + GPU)
+### How to run the Hybrid miner (CPU + GPU)
 
 Similar to the regular CPU miner you will have to set the amount of threads as well as a payout ID and an optional label. For the GPU part of this implementation an additional parameter is required that sets the amount of resources used by your GPU(s).
 
@@ -84,7 +84,7 @@ The -n parameter has to be a single value or a comma seperated list e.g.
 `-n 500 300 500`
 If you set 3 values for n they will be mapped to GPU 0, 1, 2 respectively. Ideal values for n are somewhere between 100-600 depending on your GPU, e.g. 4090: n=500, 4070ti: n=250. In order to find the optimal configuration you can run the GPU miner which will tell you the amount of blocks used in its optimal configuration after the auto-tuning is finished, which you can input as value for your -n parameter.
 
-### How to run the cluster miner 
+### How to run the Cluster miner 
 
 - rcluster-main
 host ``rcluster-main`` on node machine
