@@ -5,6 +5,10 @@ Welcome to Qubic.Solutions! This guide will help you start mining with our softw
 ## Table of Contents
 
 - [Download Miners](#download-miners)
+  - [Which version of the miner I have to use?](#cpu-architectures-and-their-processors)
+  - [Zen 4 (znver4)](#zen-4-znver4)
+  - [Zen 3 (znver3)](#zen-3-znver3)
+  - [Broadwell](#broadwell)
 - [Monitor Your Mining Stats](#monitor-your-mining-stats)
 - [Join Our Community](#join-our-community)
 - [Mining Setup Instructions](#mining-setup-instructions)
@@ -15,10 +19,6 @@ Welcome to Qubic.Solutions! This guide will help you start mining with our softw
   - [How to run HiveOS (Hybrid/Cluster/CPU)](#how-to-run-hiveos-gpucpu)
   - [Which -n parameter I have to choose?](#-n-parameter)
   - [Which -t parameter I have to choose?](#cpu-architectures-and-their-processors)
-- [Which version of the miner I have to use?](#cpu-architectures-and-their-processors)
-  - [Zen 4 (znver4)](#zen-4-znver4)
-  - [Zen 3 (znver3)](#zen-3-znver3)
-  - [Broadwell](#broadwell)
 - [Extra Config Arguments](#Extra-config-arguments)
 - [Support](#support)
 
