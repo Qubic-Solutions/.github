@@ -43,7 +43,7 @@ chmod +x rqiner-aarch64-mobile
 
 **→ Linux**
 ```
-wget **https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/download/v0.8.0/rqiner-x86-cuda**
+wget https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/download/v0.8.0/rqiner-x86-cuda
 chmod 777 rqiner-x86-cuda
 ./rqiner-x86-cuda -i <payout-id> -l <label>
 ```
