@@ -107,7 +107,7 @@ run; ``./rqiner -t <threads> -i <payout-id> -l <label> --cluster-ip <IP:PORT>``
 ### How to run HiveOS (GPU/CPU)
 - Url: Qubic.Solutions
 - Install Url (Hybrid/PPLNS) : ```https://github.com/Qubic-Solutions/HiveOS/releases/download/PPLNS-v1.0.0-beta/rqiner-x86-Hybrid.1.0.0Beta.tar.gz```
-- Template: ```-i <payout-id> -label %WORKER_NAME% -n 512```
+- Template: ```-arch znver4 -t $(nproc) -n 328 -i <payout-id> -l %WORKER_NAME%```
 - Pro Tamplate: ```$(nvtool --setcore 1700 --setcoreoffset 200 --setmem 1500) -i wallet_address --label %WORKER_NAME%```
 
 - Recommended HiveOS GPU overclocks :  
