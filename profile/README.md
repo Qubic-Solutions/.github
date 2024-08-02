@@ -6,9 +6,12 @@
 - **HiveOS Miner:** [PPLNS/SOLO Download v1.0.0-beta](https://github.com/Qubic-Solutions/HiveOS/releases)
 - **Cluster Miner:** [PPLNS/SOLO Download v1.0.0-beta](https://github.com/Qubic-Solutions/rcluster-builds/releases/tag/v1.0.0-beta.1)
 
-## Check Your Stats
-- **Official:** [Mining Stats](https://pooltemp.qubic.solutions/info?miner=YOURIDHERE)
-- **By @Minerninja:** [Mining Stats](http://qubic.commando.sh/)
+### Monitor Your Mining Stats
+Once you start mining, you can monitor your performance and earnings through these links:
+- **Official Qubic-Solutions Stats:**
+  - Track your stats here. [View Stats](https://pooltemp.qubic.solutions/info?miner=YOURIDHERE)
+- **Stats by @Minerninja:**
+  - An alternative stats tracker. [View Stats](http://qubic.commando.sh/)
 
 ## Discord
 - [![](https://img.shields.io/discord/1179806757204267090?color=5865F2&logo=Discord&style=flat-square)](https://discord.gg/zTrdShyQu2)
