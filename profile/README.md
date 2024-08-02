@@ -3,13 +3,13 @@
 Welcome to Qubic.Solutions! This guide will help you start mining with our software, step-by-step. Whether you're new to mining or have some experience, we've got you covered.
 We offer both PPLNS (Pay Per Last N Shares) and Solo mining options.
 
-## Table of Contents
+## Menu
 
 - [Download Miners](#download-miners)
   - [Which version of the miner I have to use?](#CPU-Architectures-and-Their-Processors-(-t))
-    - [Zen 4 (znver4)](#zen-4-znver4)
-    - [Zen 3 (znver3)](#zen-3-znver3)
-    - [Broadwell](#broadwell)
+    - [AMD (znver4)](#zen-4-znver4)
+    - [AMD (znver3)](#zen-3-znver3)
+    - [Intel](#broadwell)
 - [Monitor Your Mining Stats](#monitor-your-mining-stats)
 - [Join Our Community](#join-our-community)
 - [Mining Setup Instructions](#mining-setup-instructions)
