@@ -1,4 +1,4 @@
-# How to Start Mining with Qubic.Solutions
+# Mining with Qubic.Solutions
 
 ## Download Miner
 - **CPU Miner:** [PPLNS/SOLO Download v1.0.0](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v1.0.0-beta)
