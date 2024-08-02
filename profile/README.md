@@ -13,7 +13,8 @@ Welcome to Qubic.Solutions! This guide will help you start mining with our softw
   - [How to run the Hybrid miner(CPU + GPU)](#how-to-run-the-hybrid-miner-cpu--gpu)
   - [How to run the Cluster miner (CPU + GPU)](#How-to-run-the-Cluster-miner)
   - [How to run HiveOS (Hybrid/Cluster/CPU)](#how-to-run-hiveos-gpucpu)
-  - [Which -n Parameter I have to choose?](#-n-parameter)
+  - [Which -n parameter I have to choose?](#-n-parameter)
+  - [Which -t parameter I have to choose?](#cpu-architectures-and-their-processors)
 - [Which version of the miner I have to use?](#cpu-architectures-and-their-processors)
   - [Zen 4 (znver4)](#zen-4-znver4)
   - [Zen 3 (znver3)](#zen-3-znver3)
@@ -161,7 +162,7 @@ Search for your GPU and select the right felt on the right side to get the best 
 |---------------------------------|----------------|---------------------|
 | NVIDIA A100                     | 6,912          | 216                 |
 
-## CPU Architectures and Their Processors
+## CPU Architectures and Their Processors (-t)
 
 This document provides a list of CPUs for the following microarchitectures: Zen 4 (znver4), Zen 3 (znver3), and Broadwell.
 
