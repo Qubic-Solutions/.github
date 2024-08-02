@@ -6,7 +6,7 @@ We offer both PPLNS (Pay Per Last N Shares) and Solo mining options.
 ## Menu
 
 - [Download Miners](#download-miners)
-  - [Which version of the miner I have to use?](#CPU-Architectures-and-Their-Processors-(-t))
+  - [Which version of the miner I have to use?](#cpu-architectures-and-their-processors-(-t))
     - [AMD (znver4)](#zen-4-znver4)
     - [AMD (znver3)](#zen-3-znver3)
     - [Intel](#broadwell)
@@ -19,7 +19,7 @@ We offer both PPLNS (Pay Per Last N Shares) and Solo mining options.
   - [How to run the Cluster miner (CPU + GPU)](#How-to-run-the-Cluster-miner)
   - [How to run HiveOS (Hybrid/Cluster/CPU)](#how-to-run-hiveos-gpucpu)
     - [Which -n parameter I have to choose?](#-n-parameter)
-    - [Which -t parameter I have to choose?](#cpu-architectures-and-their-processors)
+    - [Which -t parameter I have to choose?](#cpu-architectures-and-their-processors-(-t))
 - [Extra Config Arguments](#Extra-config-arguments)
 - [Support](#support)
 
