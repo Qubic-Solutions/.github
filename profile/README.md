@@ -10,31 +10,31 @@
 - **Official:** [Mining Stats](https://pooltemp.qubic.solutions/info?miner=YOURIDHERE)
 - **By @Minerninja:** [Mining Stats](http://qubic.commando.sh/)
 
-## **Discord**
+## Discord
 - [![](https://img.shields.io/discord/1179806757204267090?color=5865F2&logo=Discord&style=flat-square)](https://discord.gg/zTrdShyQu2)
 
 # CPU (znver4)
 
-** Linux **
+**Linux**
 ```
 wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.0-beta/rqiner-x86-znver4
 chmod 777 rqiner-x86-znver4
 ./rqiner-x86-znver4 -t <threads> -i <payout-id>
 ```
-** Windows **
+**Windows**
 - Download: https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.0-beta/rqiner-x86-znver4
 - Start it with the following command with the CMD console:
 `./rqiner-x86-znver4.exe -t <threads> -i <payout-id> -l <label>`
 
-# **GPU, Cuda**
+# GPU, Cuda
 
-** Linux **
+**Linux**
 ```
 wget https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/download/v0.8.0/rqiner-x86-cuda
 chmod 777 rqiner-x86-cuda
 ./rqiner-x86-cuda -i <payout-id> -l <label>
 ```
-** Windows **
+**Windows**
 Download: **https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/download/v0.8.0/rqiner-x86-cuda.exe**
 Run it in the same folder with following command:
 `./rqiner-x86-cuda.exe -i <payout-id> -l <label>`
