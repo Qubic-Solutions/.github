@@ -25,15 +25,15 @@ Welcome to Qubic.Solutions! This guide will help you start mining with our softw
 First, you need to download the appropriate miner for your setup. Here are the options:
 
 - CPU Miner:
-  - For mining using your computer's CPU.[PPLNS/SOLO Download v1.0.0](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v1.0.0-beta)
+  - For mining using your computer's CPU.[View Downloads](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v1.0.0-beta)
 - GPU Miner:
-  - For mining using your computer's GPU. [SOLO Download v0.8.0](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/tag/v0.8.0)
+  - For mining using your computer's GPU. [View Downloads](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/tag/v0.8.0)
 - Hybrid Miner:
-  - Combines CPU and GPU mining for better performance. [PPLNS/SOLO Download v1.0.0-beta](https://github.com/Qubic-Solutions/rqiner-hybrid-builds)
+  - Combines CPU and GPU mining for better performance. [View Downloads](https://github.com/Qubic-Solutions/rqiner-hybrid-builds)
 - HiveOS Miner:
-  - Specifically designed for HiveOS. [PPLNS/SOLO Download v1.0.0-beta](https://github.com/Qubic-Solutions/HiveOS/releases)
+  - Specifically designed for HiveOS. [View Downloads](https://github.com/Qubic-Solutions/HiveOS/releases)
 - Cluster Miner:
-  - For cluster mining. [PPLNS/SOLO Download v1.0.0-beta](https://github.com/Qubic-Solutions/rcluster-builds/releases/tag/v1.0.0-beta.1)
+  - For cluster mining. [View Downloads](https://github.com/Qubic-Solutions/rcluster-builds/releases/tag/v1.0.0-beta.1)
 
 ### Monitor Your Mining Stats
 Once you start mining, you can monitor your performance and earnings through these links:
