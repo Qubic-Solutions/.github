@@ -1,8 +1,4 @@
 ![Github2](https://github.com/user-attachments/assets/df4f0ccc-0995-43b9-b0f3-14aee3a459cc)
-
-# Mining with Qubic.Solutions!
-
-
 ## Download 
 - **CPU Miner:** [PPLNS/SOLO Download v1.0.0](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v1.0.0-beta)
 - **GPU Miner:** [SOLO Download v0.8.0](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/tag/v0.8.0)
