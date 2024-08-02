@@ -1,6 +1,7 @@
 ![Github2](https://github.com/user-attachments/assets/df4f0ccc-0995-43b9-b0f3-14aee3a459cc)
 # Qubic.Solutions Mining Guide
 Welcome to Qubic.Solutions! This guide will help you start mining with our software, step-by-step. Whether you're new to mining or have some experience, we've got you covered.
+We offer both PPLNS (Pay Per Last N Shares) and Solo mining options.
 
 ## Table of Contents
 
