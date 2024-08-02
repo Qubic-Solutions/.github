@@ -102,6 +102,50 @@ run; ``./rqiner -t <threads> -i <payout-id> -l <label> --cluster-ip <IP:PORT>``
 3000 series ```nvtool --setcoreoffset 200 --setclocks 1600 --setmem 7000 --setmemoffset 2000```  
 4000 series ```nvtool --setcoreoffset 200 --setclocks 2900 --setmem 7000 --setmemoffset 2000```  
 
+### -n Parameter
+
+| **GPU Model**                   | **CUDA Cores** | **-n** |
+|---------------------------------|----------------|---------------------|
+| NVIDIA GeForce RTX 4090         | 16,384         | 512                 |
+| NVIDIA GeForce RTX 4080         | 9,728          | 304                 |
+| NVIDIA GeForce RTX 4070 Ti      | 7,680          | 240                 |
+| NVIDIA GeForce RTX 4070         | 5,888          | 184                 |
+| NVIDIA GeForce RTX 4060 Ti      | 4,352          | 136                 |
+| NVIDIA GeForce RTX 4060         | 3,072          | 96                  |
+| NVIDIA GeForce RTX 3090         | 10,496         | 328                 |
+| NVIDIA GeForce RTX 3080         | 8,704          | 272                 |
+| NVIDIA GeForce RTX 3070 Ti      | 6,144          | 192                 |
+| NVIDIA GeForce RTX 3070         | 5,888          | 184                 |
+| NVIDIA GeForce RTX 3060 Ti      | 4,864          | 152                 |
+| NVIDIA GeForce RTX 3060         | 3,584          | 112                 |
+| NVIDIA GeForce GTX 1660 Ti      | 1,536          | 48                  |
+| NVIDIA GeForce GTX 1660 Super   | 1,408          | 44                  |
+| NVIDIA GeForce GTX 1650 Super   | 1,024          | 32                  |
+
+## NVIDIA Quadro GPUs
+
+| **GPU Model**                   | **CUDA Cores** | **CUDA Cores ÷ 32** |
+|---------------------------------|----------------|---------------------|
+| NVIDIA Quadro RTX 8000          | 4,608          | 144                 |
+| NVIDIA Quadro RTX 6000          | 4,608          | 144                 |
+| NVIDIA Quadro RTX 4000          | 2,304          | 72                  |
+| NVIDIA Quadro P6000             | 3,840          | 120                 |
+| NVIDIA Quadro P5000             | 2,560          | 80                  |
+
+## NVIDIA Tesla GPUs
+
+| **GPU Model**                   | **CUDA Cores** | **CUDA Cores ÷ 32** |
+|---------------------------------|----------------|---------------------|
+| NVIDIA Tesla V100               | 5,120          | 160                 |
+| NVIDIA Tesla P100               | 3,584          | 112                 |
+| NVIDIA Tesla T4                 | 2,560          | 80                  |
+
+## NVIDIA A100 (Data Center GPU)
+
+| **GPU Model**                   | **CUDA Cores** | **CUDA Cores ÷ 32** |
+|---------------------------------|----------------|---------------------|
+| NVIDIA A100                     | 6,912          | 216                 |
+
 - Extra config arguments:
 
 | Setting | Description |
