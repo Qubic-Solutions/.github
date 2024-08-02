@@ -22,9 +22,8 @@ chmod 777 rqiner-x86-znver4
 ./rqiner-x86-znver4 -t <threads> -i <payout-id>
 ```
 **Windows**
-- Download: `https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.0-beta/rqiner-x86-znver4`
-- Start it with the following command with the CMD console:
-`./rqiner-x86-znver4.exe -t <threads> -i <payout-id> -l <label>`
+Download: `https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.0-beta/rqiner-x86-znver4`
+Start it with the following command with the CMD console: `./rqiner-x86-znver4.exe -t <threads> -i <payout-id> -l <label>`
 
 # GPU, Cuda
 
@@ -35,8 +34,8 @@ chmod 777 rqiner-x86-cuda
 ./rqiner-x86-cuda -i <payout-id> -l <label>
 ```
 **Windows**
-- Download: `https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/download/v0.8.0/rqiner-x86-cuda.exe`
-- Run it in the same folder with following command: `./rqiner-x86-cuda.exe -i <payout-id> -l <label>`
+Download: `https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/download/v0.8.0/rqiner-x86-cuda.exe`
+Run it in the same folder with following command: `./rqiner-x86-cuda.exe -i <payout-id> -l <label>`
 
 # How to run the hybrid miner
 
