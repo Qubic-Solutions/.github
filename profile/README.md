@@ -1,12 +1,8 @@
 ![Github2](https://github.com/user-attachments/assets/df4f0ccc-0995-43b9-b0f3-14aee3a459cc)
 # Qubic.Solutions Mining Guide
-
-## Getting Started
-
 Welcome to Qubic.Solutions! This guide will help you start mining with our software, step-by-step. Whether you're new to mining or have some experience, we've got you covered.
 
 ### Download Miners
-
 First, you need to download the appropriate miner for your setup. Here are the options:
 
 - CPU Miner:
@@ -28,7 +24,6 @@ Once you start mining, you can monitor your performance and earnings through the
   - An alternative stats tracker. [View Stats](http://qubic.commando.sh/)
 
 ### Join Our Community
-
 If you need help or want to connect with other miners, join our Discord community:
 
 - **Discord:**
@@ -146,6 +141,49 @@ Search for your GPU and select the right felt on the right side to get the best 
 | **GPU Model**                   | **CUDA Cores** | **-n** |
 |---------------------------------|----------------|---------------------|
 | NVIDIA A100                     | 6,912          | 216                 |
+
+## CPU Architectures and Their Processors
+
+This document provides a list of CPUs for the following microarchitectures: Zen 4 (znver4), Zen 3 (znver3), and Broadwell.
+
+## Zen 4 (znver4)
+
+Zen 4 is AMD's microarchitecture used in their Ryzen 7000 series processors and EPYC 9004 series processors.
+
+| **Processor Model**    | **Cores** | **Threads** |
+|------------------------|-----------|-------------|
+| AMD Ryzen 9 7950X     | 16        | 32          |
+| AMD Ryzen 9 7900X     | 12        | 24          |
+| AMD Ryzen 7 7800X3D   | 8         | 16          |
+| AMD Ryzen 7 7700X     | 8         | 16          |
+| AMD Ryzen 5 7600X     | 6         | 12          |
+| AMD EPYC 9654         | 96        | 192         |
+| AMD EPYC 9554         | 64        | 128         |
+
+## Zen 3 (znver3)
+
+Zen 3 is AMD's microarchitecture used in Ryzen 5000 series processors and EPYC 7003 series processors.
+
+| **Processor Model**    | **Cores** | **Threads** |
+|------------------------|-----------|-------------|
+| AMD Ryzen 9 5950X     | 16        | 32          |
+| AMD Ryzen 9 5900X     | 12        | 24          |
+| AMD Ryzen 7 5800X     | 8         | 16          |
+| AMD Ryzen 5 5600X     | 6         | 12          |
+| AMD EPYC 7763         | 64        | 128         |
+| AMD EPYC 7543         | 32        | 64          |
+
+## Broadwell
+
+Broadwell is Intel's microarchitecture used in some 5th Gen Core processors and Xeon E5-2600 v4 series.
+
+| **Processor Model**     | **Cores** | **Threads** |
+|-------------------------|-----------|-------------|
+| Intel Core i7-5950HQ    | 4         | 8           |
+| Intel Core i7-5775C     | 4         | 8           |
+| Intel Core i5-5675C     | 4         | 4           |
+| Intel Xeon E5-2699 v4   | 22        | 44          |
+| Intel Xeon E5-2687W v4  | 8         | 16          |
 
 - Extra config arguments:
 
