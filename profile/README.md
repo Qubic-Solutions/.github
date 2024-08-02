@@ -22,9 +22,9 @@ chmod 777 rqiner-x86-znver4
 ```
 
 **Windows**
-Download: `https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.0-beta/rqiner-x86-znver4`
-Start it with the following command with the CMD console:
-`./rqiner-x86-znver4.exe -t <threads> -i <payout-id> -l <label>`
+- Download: https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.0-beta/rqiner-x86-znver4
+- Start it with the following command with the CMD console:
+- `./rqiner-x86-znver4.exe -t <threads> -i <payout-id> -l <label>`
 
 # **Mobile Mining** 
 ```
