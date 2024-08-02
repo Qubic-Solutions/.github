@@ -9,7 +9,6 @@ Welcome to Qubic.Solutions! This guide will help you start mining with our softw
 
 First, you need to download the appropriate miner for your setup. Here are the options:
 
-### Download 
 - CPU Miner:
   - For mining using your computer's CPU.[PPLNS/SOLO Download v1.0.0](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v1.0.0-beta)
 - GPU Miner:
