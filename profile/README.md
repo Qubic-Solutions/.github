@@ -27,20 +27,20 @@ We offer both PPLNS (Pay Per Last N Shares) and Solo mining options.
 First, you need to download the appropriate miner for your setup. Here are the options:
 
 - CPU Miner:
-  - For mining using your computer's CPU.[View Downloads](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v1.0.0-beta)
+  - For mining using your computer's CPU.[View Downloads](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v1.0.1)
 - GPU Miner:
-  - For mining using your computer's GPU. [View Downloads](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases/tag/v0.8.0)
+  - For mining using your computer's GPU. [View Downloads]()
 - Hybrid Miner:
-  - Combines CPU and GPU mining for better performance. [View Downloads](https://github.com/Qubic-Solutions/rqiner-hybrid-builds)
+  - Combines CPU and GPU mining for better performance. [View Downloads]()
 - HiveOS Miner:
-  - Specifically designed for HiveOS. [View Downloads](https://github.com/Qubic-Solutions/HiveOS/releases)
+  - Specifically designed for HiveOS. [View Downloads](https://github.com/Qubic-Solutions/HiveOS/releases/tag/EP121)
 - Cluster Miner:
-  - For cluster mining. [View Downloads](https://github.com/Qubic-Solutions/rcluster-builds/releases/tag/v1.0.0-beta.1)
+  - For cluster mining. [View Downloads]()
 
 ### Monitor Your Mining Stats
 Once you start mining, you can monitor your performance and earnings through these links:
 - **Official Qubic-Solutions Stats:**
-  - Track your stats here. [View Stats](https://pooltemp.qubic.solutions/info?miner=YOURIDHERE)
+  - Track your stats here. [View Stats](https://pool.qubic.solutions/info?miner=YOURIDHERE)
 - **Stats by @Minerninja:**
   - An alternative stats tracker. [View Stats](http://qubic.commando.sh/)
 
@@ -56,12 +56,12 @@ If you need help or want to connect with other miners, join our Discord communit
 
 **Linux**
 ```
-wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.0-beta/rqiner-x86-znver4
+wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.1/rqiner-x86-znver4
 chmod 777 rqiner-x86-znver4
 ./rqiner-x86-znver4 -t <threads> -i <payout-id>
 ```
 **Windows**
-- Download: `https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.0-beta/rqiner-x86-znver4`
+- Download: `https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.1/rqiner-x86-znver4.exe`
 - Start it with the following command with the CMD/Powershell console: `./rqiner-x86-znver4.exe -t <threads> -i <payout-id> -l <label>`
 
 ### How to run the GPU miner (cuda)
