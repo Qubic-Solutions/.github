@@ -27,20 +27,22 @@ We offer both PPLNS (Pay Per Last N Shares) and Solo mining options.
 First, you need to download the appropriate miner for your setup. Here are the options:
 
 - CPU Miner:
-  - For mining using your computer's CPU.[View Downloads](https://github.com/Qubic-Solutions/rqiner-builds/releases/tag/v1.0.1)
-- GPU Miner:
-  - For mining using your computer's GPU. [View Downloads]()
-- Hybrid Miner:
-  - Combines CPU and GPU mining for better performance. [View Downloads]()
+  - For mining using your computer's CPU.[View Downloads](https://github.com/Qubic-Solutions/rqiner-builds/releases)
+- GPU Miner[Outdates]:
+  - For mining using your computer's GPU. [View Downloads](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases)
+- Hybrid Miner[Outdates]:
+  - Combines CPU and GPU mining for better performance. [View Downloads](https://github.com/Qubic-Solutions/rqiner-hybrid-builds/releases)
 - HiveOS Miner:
-  - Specifically designed for HiveOS. [View Downloads](https://github.com/Qubic-Solutions/HiveOS/releases/tag/EP121)
-- Cluster Miner:
-  - For cluster mining. [View Downloads]()
+  - Specifically designed for HiveOS. [View Downloads](https://github.com/Qubic-Solutions/HiveOS/releases)
+- Cluster Miner [Outdates]:
+  - For cluster mining. [View Downloads](https://github.com/Qubic-Solutions/rcluster-builds/releases)
 
 ### Monitor Your Mining Stats
 Once you start mining, you can monitor your performance and earnings through these links:
 - **Official Qubic-Solutions Stats:**
   - Track your stats here. [View Stats](https://pool.qubic.solutions/info?miner=YOURIDHERE)
+- **Mining Calculator**
+  - An alternative stats tracker. [Calculate](https://discord.com/channels/1179806757204267090/1270893741334462524)
 - **Stats by @Minerninja:**
   - An alternative stats tracker. [View Stats](http://qubic.commando.sh/)
 
