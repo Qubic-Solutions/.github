@@ -110,6 +110,7 @@ run; ``./rqiner -t <threads> -i <payout-id> -l <label> --cluster-ip <IP:PORT>``
 - Url: Qubic.Solutions
 - Install Url (Hybrid/PPLNS) : ```https://github.com/Qubic-Solutions/HiveOS/releases/download/EP121/rqiner-x86-CPU.Only.1.0.1.tar.gz```
 - Template: ```-arch znver4 -t $(nproc) -i <payout-id> -l %WORKER_NAME%```
+![flighseet](https://github.com/user-attachments/assets/8b12ece9-b34f-44b1-bce3-68648c117738)
 
 - Recommended HiveOS GPU overclocks :  
 **Medium**  
