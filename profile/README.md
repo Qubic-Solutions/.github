@@ -58,7 +58,7 @@ If you need help or want to connect with other miners, join our Discord communit
 
 **Linux**
 ```
-wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.1/rqiner-x86-znver4
+wget https://github.com/Qubic-Solutions/rqiner-builds/releases/download/v1.0.7-b/rqiner-x86-znver4
 chmod 777 rqiner-x86-znver4
 ./rqiner-x86-znver4 -t <threads> -i <payout-id>
 ```
