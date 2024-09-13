@@ -26,13 +26,13 @@ We offer both PPLNS (Pay Per Last N Shares) and Solo mining options.
 ### Download Miners
 First, you need to download the appropriate miner for your setup. Here are the options:
 
-- CPU Miner:
+- CPU Miner :white_check_mark:  :
   - For mining using your computer's CPU.[View Downloads](https://github.com/Qubic-Solutions/rqiner-builds/releases)
-- GPU Miner[Outdated]:
+- GPU Miner :white_check_mark: :
   - For mining using your computer's GPU. [View Downloads](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases)
 - Hybrid Miner[Outdated]:
   - Combines CPU and GPU mining for better performance. [View Downloads](https://github.com/Qubic-Solutions/rqiner-hybrid-builds/releases)
-- HiveOS Miner:
+- HiveOS Miner :white_check_mark: :
   - Specifically designed for HiveOS. [View Downloads](https://github.com/Qubic-Solutions/HiveOS/releases)
 - Cluster Miner [Outdated]:
   - For cluster mining. [View Downloads](https://github.com/Qubic-Solutions/rcluster-builds/releases)
