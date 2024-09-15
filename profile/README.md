@@ -5,21 +5,21 @@ We offer both PPLNS (Pay Per Last N Shares) and Solo mining options.
 
 ## Menu
 
-- [Download Miners](#download-miners)
-  - [Which version of the miner I have to use?](#cpu-architectures-and-their-processors)
+- [Download Miners :white_check_mark:](#download-miners)
+  - [Which version of the miner I have to use? :white_check_mark:](#cpu-architectures-and-their-processors)
     - [AMD (znver4)](#zen-4-znver4)
     - [AMD (znver3)](#zen-3-znver3)
     - [Intel (broadwell)](#Broadwell)
-- [Monitor Your Mining Stats](#monitor-your-mining-stats)
-- [Join Our Community](#join-our-community)
-- [Mining Setup Instructions](#mining-setup-instructions)
-  - [How to run the CPU miner (znver4/znver3/broadwell)](#how-to-run-the-cpu-miner-znver4znver3broadwell)
-  - [How to run the GPU miner (cuda)](#how-to-run-the-gpu-miner-cuda)
-  - [How to run the Hybrid miner(CPU + GPU)](#how-to-run-the-hybrid-miner-cpu--gpu)
-  - [How to run the Cluster miner (CPU + GPU)](#How-to-run-the-Cluster-miner)
-  - [How to run HiveOS (Hybrid/Cluster/CPU)](#how-to-run-hiveos-gpucpu)
-    - [Which -n parameter I have to choose?](#-n-parameter)
-    - [Which -t parameter I have to choose?](#cpu-architectures-and-their-processors)
+- [Monitor Your Mining Stats :white_check_mark:](#monitor-your-mining-stats)
+- [Join Our Community :white_check_mark:](#join-our-community)
+- [Mining Setup Instructions :white_check_mark:](#mining-setup-instructions)
+  - [How to run the CPU miner (znver4/znver3/broadwell) :white_check_mark:](#how-to-run-the-cpu-miner-znver4znver3broadwell)
+  - [How to run the GPU miner (cuda/zluda) :white_check_mark:](#how-to-run-the-gpu-miner-cuda)
+  - [How to run the Hybrid miner( :x:)](#how-to-run-the-hybrid-miner-cpu--gpu)
+  - [How to run the Cluster miner( :x:)](#How-to-run-the-Cluster-miner)
+  - [How to run HiveOS (GPU/CPU/AMD GPU) :white_check_mark:](#how-to-run-hiveos-gpucpu)
+    - [Which -n parameter I have to choose? :x:](#-n-parameter)
+    - [Which -t parameter I have to choose? :x:](#cpu-architectures-and-their-processors)
 - [Extra Config Arguments](#Extra-config-arguments)
 - [Support](#support)
 
@@ -30,11 +30,11 @@ First, you need to download the appropriate miner for your setup. Here are the o
   - For mining using your computer's CPU.[View Downloads](https://github.com/Qubic-Solutions/rqiner-builds/releases)
 - GPU Miner :white_check_mark: :
   - For mining using your computer's GPU. [View Downloads](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases)
-- Hybrid Miner[Outdated]:
+- Hybrid Miner[Outdated] :x: :
   - Combines CPU and GPU mining for better performance. [View Downloads](https://github.com/Qubic-Solutions/rqiner-hybrid-builds/releases)
 - HiveOS Miner :white_check_mark: :
   - Specifically designed for HiveOS. [View Downloads](https://github.com/Qubic-Solutions/HiveOS/releases)
-- Cluster Miner [Outdated]:
+- Cluster Miner [Outdated] :x: :
   - For cluster mining. [View Downloads](https://github.com/Qubic-Solutions/rcluster-builds/releases)
 
 ### Monitor Your Mining Stats
