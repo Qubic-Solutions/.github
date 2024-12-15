@@ -56,6 +56,8 @@ If you need help or want to connect with other miners, join our Discord communit
 - **Discord:**
   - [![](https://img.shields.io/discord/1179806757204267090?color=5865F2&logo=Discord&style=flat-square)](https://discord.gg/zTrdShyQu2)
   - accept the rules to join our discord: :white_check_mark:
+  - ![image](https://github.com/user-attachments/assets/4c8ebb90-800c-4201-9ae9-87d173c3cf00)
+
 
 ## Mining Setup Instructions
 
