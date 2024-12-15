@@ -32,10 +32,12 @@ First, you need to download the appropriate miner for your setup. Here are the o
   - For mining using your computer's GPU. [View Downloads](https://github.com/Qubic-Solutions/3rd-party-miners)
 - Android Miner :white_check_mark: 
   - For mining using your phone CPU. [View Downloads](https://github.com/Qubic-Solutions/rqiner-builds/releases)
-- Hybrid Miner [Outdated] :x: 
-  - Combines CPU and GPU mining for better performance. [View Downloads](https://github.com/Qubic-Solutions/rqiner-hybrid-builds/releases)
 - HiveOS Miner :white_check_mark: 
   - Specifically designed for HiveOS. [View Downloads](https://github.com/Qubic-Solutions/HiveOS/releases)
+- MMPOS Miner :white_check_mark: 
+  - Specifically designed for HiveOS. [View Downloads](https://github.com/Qubic-Solutions/MMPOS)
+- Hybrid Miner [Outdated] :x: 
+  - Combines CPU and GPU mining for better performance. [View Downloads](https://github.com/Qubic-Solutions/rqiner-hybrid-builds/releases)
 - Cluster Miner [Outdated] :x: 
   - For cluster mining. [View Downloads](https://github.com/Qubic-Solutions/rcluster-builds/releases)
 
