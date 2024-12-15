@@ -20,7 +20,7 @@ We offer both PPLNS (Pay Per Last N Shares) and Solo mining options.
   - [How to run HiveOS (GPU/CPU/AMD GPU) :white_check_mark:](#how-to-run-hiveos-gpucpu)
     - [Which -n parameter I have to choose? :x:](#-n-parameter)
     - [Which -t parameter I have to choose? :x:](#cpu-architectures-and-their-processors)
-- [Extra Config Arguments](#Extra-config-arguments)
+- [Extra Config Arguments](#How-to-run-HiveOS-(GPU/CPU))
 - [Support](#support)
 
 ### Download Miners
