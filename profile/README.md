@@ -29,7 +29,9 @@ First, you need to download the appropriate miner for your setup. Here are the o
 - CPU Miner :white_check_mark:  
   - For mining using your computer's CPU.[View Downloads](https://github.com/Qubic-Solutions/rqiner-builds/releases)
 - GPU Miner :white_check_mark: 
-  - For mining using your computer's GPU. [View Downloads](https://github.com/Qubic-Solutions/rqiner-gpu-builds/releases)
+  - For mining using your computer's GPU. [View Downloads](https://github.com/Qubic-Solutions/3rd-party-miners)
+- Android Miner :white_check_mark: 
+  - For mining using your phone CPU. [View Downloads](https://github.com/Qubic-Solutions/rqiner-builds/releases)
 - Hybrid Miner [Outdated] :x: 
   - Combines CPU and GPU mining for better performance. [View Downloads](https://github.com/Qubic-Solutions/rqiner-hybrid-builds/releases)
 - HiveOS Miner :white_check_mark: 
@@ -51,6 +53,7 @@ If you need help or want to connect with other miners, join our Discord communit
 
 - **Discord:**
   - [![](https://img.shields.io/discord/1179806757204267090?color=5865F2&logo=Discord&style=flat-square)](https://discord.gg/zTrdShyQu2)
+  - accept the rules to join our discord: :white_check_mark:
 
 ## Mining Setup Instructions
 
@@ -108,9 +111,10 @@ run; ``./rqiner -t <threads> -i <payout-id> -l <label> --cluster-ip <IP:PORT>``
 
 ### How to run HiveOS (GPU/CPU)
 - Url: Qubic.Solutions
-- Install Url (Hybrid/PPLNS) : ```https://github.com/Qubic-Solutions/HiveOS/releases/download/EP121/rqiner-x86-CPU.Only.1.0.1.tar.gz```
-- Template: ```-arch znver4 -t $(nproc) -i <payout-id> -l %WORKER_NAME%```
-![flighseet](https://github.com/user-attachments/assets/8b12ece9-b34f-44b1-bce3-68648c117738)
+- Install Url (CPU/GPU) : ```https://github.com/Qubic-Solutions/HiveOS/releases/download/experimental/rqiner_hiveos-latest.tar.gz```
+- Template: ```--model cpu_gpu_experimental -arch znver4 -t $(nproc) -i <payout-id>```
+![flighseet](![image](https://github.com/user-attachments/assets/347b3dd1-0064-4c0c-8324-6d65aafcd1ab)
+
 
 - Recommended HiveOS GPU overclocks :  
 **Medium**  
