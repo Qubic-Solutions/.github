@@ -35,7 +35,7 @@ First, you need to download the appropriate miner for your setup. Here are the o
 - HiveOS Miner :white_check_mark: 
   - Specifically designed for HiveOS. [View Downloads](https://github.com/Qubic-Solutions/HiveOS/releases)
 - MMPOS Miner :white_check_mark: 
-  - Specifically designed for HiveOS. [View Downloads](https://github.com/Qubic-Solutions/MMPOS)
+  - Specifically designed for MMPOS. [View Downloads](https://github.com/Qubic-Solutions/MMPOS)
 - Hybrid Miner [Outdated] :x: 
   - Combines CPU and GPU mining for better performance. [View Downloads](https://github.com/Qubic-Solutions/rqiner-hybrid-builds/releases)
 - Cluster Miner [Outdated] :x: 
